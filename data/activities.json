@@ -1,0 +1,11 @@
+[
+{"id": "gym",        "name": "Grind at Chrome Gym",   "cost": 120,   "cooldown": 0, "tag": "self",    "effects": {"body": 6, "health": 3, "happiness": 2},  "log": "Pumped iron under flickering halogens."},
+{"id": "meditate",   "name": "Sens-Tank Meditation",  "cost": 250,   "cooldown": 0, "tag": "self",    "effects": {"nerve": 5, "happiness": 5},               "log": "Floated in warm dark for an hour."},
+{"id": "study",      "name": "Data-Dive Study",       "cost": 80,    "cooldown": 0, "tag": "mind",    "effects": {"smarts": 6, "happiness": -2},             "log": "Downloaded a lecture pack the hard way."},
+{"id": "arcade",     "name": "Neon Mile Arcade",      "cost": 150,   "cooldown": 0, "tag": "fun",     "effects": {"cool": 4, "happiness": 7},                "log": "Beat your own high score on Grid Runner."},
+{"id": "streetfight","name": "Back-Alley Brawl",      "cost": 0,     "cooldown": 1, "tag": "risky",   "effects": {"nerve": 8, "cool": 5, "health": -10},      "log": "Won a fistfight nobody filmed."},
+{"id": "clinic",     "name": "Black-Market Checkup",  "cost": 800,   "cooldown": 2, "tag": "medical", "effects": {"health": 15},                             "log": "A ripperdoc patched you up quietly."},
+{"id": "donate",     "name": "Feed the Block",        "cost": 400,   "cooldown": 0, "tag": "karma",   "effects": {"karma": 8, "happiness": 4},               "log": "Bought protein meals for the terrace kids."},
+{"id": "parttime",   "name": "Gig-Board Odd Jobs",    "cost": 0,     "cooldown": 0, "tag": "money",   "effects": {"credits": 350, "happiness": -3},          "log": "Scraped together side credits."},
+{"id": "jackin",     "name": "Jack Into the Grid",    "cost": 60,    "cooldown": 0, "tag": "net",     "effects": {"smarts": 3, "cool": 3, "health": -2},      "log": "Surfed the neon datascape till dawn."}
+]

@@ -1,0 +1,5 @@
+[
+{"id": "mother", "name": "Mira", "type": "family", "family": true,  "affinity": 75},
+{"id": "father", "name": "Tomas","type": "family", "family": true,  "affinity": 65},
+{"id": "sibling","name": "Rhea", "type": "family", "family": true,  "affinity": 55}
+]

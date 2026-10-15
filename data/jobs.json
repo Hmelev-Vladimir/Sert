@@ -1,0 +1,10 @@
+[
+{"id": "courier",     "name": "Drone Courier",       "sector": "logistics", "min_age": 16, "min_edu": 0, "salary": 900,   "max_level": 3, "hire_chance": 0.9,  "req_stats": [{"id": "body", "min": 40}]},
+{"id": "noodle",      "name": "Neon Noodle Cook",    "sector": "service",   "min_age": 16, "min_edu": 0, "salary": 800,   "max_level": 3, "hire_chance": 0.92, "req_stats": []},
+{"id": "ripper_assist","name": "Ripperdoc Assistant","sector": "medical",   "min_age": 18, "min_edu": 1, "salary": 2200,  "max_level": 4, "hire_chance": 0.8,  "req_stats": [{"id": "smarts", "min": 55}]},
+{"id": "grid_jockey", "name": "Grid Jockey",         "sector": "tech",      "min_age": 18, "min_edu": 2, "salary": 4200,  "max_level": 5, "hire_chance": 0.7,  "req_stats": [{"id": "smarts", "min": 65}, {"id": "nerve", "min": 50}]},
+{"id": "fixer",       "name": "District Fixer",      "sector": "underground","min_age": 21, "min_edu": 0, "salary": 3600,  "max_level": 5, "hire_chance": 0.6,  "req_stats": [{"id": "cool", "min": 60}, {"id": "nerve", "min": 60}]},
+{"id": "corp_drone",  "name": "Corporate Data Drone","sector": "corporate", "min_age": 21, "min_edu": 3, "salary": 6500,  "max_level": 5, "hire_chance": 0.65, "req_stats": [{"id": "smarts", "min": 70}]},
+{"id": "solo",        "name": "Freelance Solo",      "sector": "mercenary", "min_age": 20, "min_edu": 0, "salary": 5000,  "max_level": 5, "hire_chance": 0.5,  "req_stats": [{"id": "body", "min": 65}, {"id": "health", "min": 60}]},
+{"id": "netrunner_pro","name": "Contract Netrunner", "sector": "tech",      "min_age": 20, "min_edu": 2, "salary": 8000,  "max_level": 5, "hire_chance": 0.45, "req_stats": [{"id": "smarts", "min": 75}, {"id": "nerve", "min": 65}]}
+]

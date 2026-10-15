@@ -1,0 +1,13 @@
+{
+	"city": "Neon Bay Megalopolis",
+	"tagline": "Life in the Sprawl",
+	"districts": [
+		{"id": "docks", "name": "Rustline Docks", "desc": "Cargo drones and black-market cranes.", "risk": 6},
+		{"id": "arcology", "name": "Verdant Arcology", "desc": "Corporate green towers above the smog.", "risk": 1},
+		{"id": "neonmile", "name": "Neon Mile", "desc": "Arcades, ripperdocs and noodle stalls.", "risk": 4},
+		{"id": "grid9", "name": "Grid Nine", "desc": "Server farms humming under the rain.", "risk": 3},
+		{"id": "oldtown", "name": "Old Town Terrace", "desc": "Pre-Collapse brick, real sunlight.", "risk": 2}
+	],
+	"names_first": ["Kira", "Dex", "Mara", "Jinx", "Otto", "Vesna", "Cai", "Nyx", "Rook", "Sable", "Ilo", "Tessa", "Milo", "Zia", "Ren", "Ada", "Kato", "Lune"],
+	"names_last": ["Vasquez", "Okoro", "Lindqvist", "Sato", "Moreau", "Reyes", "Kowalski", "Adeyemi", "Novak", "Hasegawa", "Duarte", "Ilves", "Okafor", "Brandt"]
+}

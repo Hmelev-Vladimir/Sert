@@ -66,7 +66,11 @@ func start_new_life(seed_value: int = 0) -> void:
 	for s in DataService.stats:
 		stats[s["id"]] = clampf(float(s.get("default", 50)) + rng.randf_range(-18, 18), 5, 95)
 	character_name = DataService.random_name(rng)
-	district = _pick(DataService.world.get("districts", ["Neon Row"])) as String
+	var dlist: Array = DataService.world.get("districts", [])
+	if dlist.is_empty() or typeof(dlist[0]) != TYPE_DICTIONARY:
+		district = String(_pick(["Neon Row"]))
+	else:
+		district = String((dlist[rng.randi_range(0, dlist.size() - 1)] as Dictionary).get("name", "Neon Row"))
 	sex = ["F", "M"][rng.randi_range(0, 1)]
 	_spawn_family()
 	log_event("Born in %s." % district, "life")
