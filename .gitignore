@@ -1,0 +1,12 @@
+# Godot 4
+.godot/
+*.import
+exports/
+builds/
+# OS
+.DS_Store
+Thumbs.db
+# Keystores / signing secrets
+*.keystore
+*.jks
+*.mobileprovision
