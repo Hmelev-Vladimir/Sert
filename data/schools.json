@@ -1,0 +1,6 @@
+[
+{"id": "trade_cert",  "name": "Grid Trade Certificate", "tuition": 2500,  "years": 1, "min_age": 16, "grad_level": 1, "reputation": 2},
+{"id": "polytechnic", "name": "Sprawl Polytechnic",     "tuition": 9000,  "years": 2, "min_age": 18, "grad_level": 2, "reputation": 4},
+{"id": "arcology_uni","name": "Arcology University",    "tuition": 30000, "years": 3, "min_age": 18, "grad_level": 3, "reputation": 6},
+{"id": "black_ice_doctorate", "name": "Black-ICE Doctorate (off-grid)", "tuition": 60000, "years": 4, "min_age": 21, "grad_level": 4, "reputation": 8}
+]

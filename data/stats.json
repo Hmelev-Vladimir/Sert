@@ -1,0 +1,7 @@
+[
+{"id": "health",     "name": "Health",      "color_key": "success",   "default": 70},
+{"id": "smarts",     "name": "Smarts",      "color_key": "secondary", "default": 50},
+{"id": "cool",       "name": "Cool",        "color_key": "accent",    "default": 50},
+{"id": "body",       "name": "Body",        "color_key": "warning",   "default": 50},
+{"id": "nerve",      "name": "Nerve",       "color_key": "error",     "default": 50}
+]

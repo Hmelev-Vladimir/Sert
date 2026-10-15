@@ -1,0 +1,8 @@
+[
+{"id": "optics",      "name": "Kestrel Optics",      "cost": 4000,  "slot": "eyes",  "risk": 0.08, "effects": {"cool": 6, "smarts": 4},  "desc": "Zoom, IR and ad-block firmware."},
+{"id": "subdermal",   "name": "Subdermal Weave",     "cost": 6500,  "slot": "body",  "risk": 0.12, "effects": {"body": 10, "health": 6}, "desc": "Ballistic mesh under real skin."},
+{"id": "reflex",      "name": "Mantis Reflex Boost", "cost": 9000,  "slot": "limbs", "risk": 0.15, "effects": {"nerve": 12, "body": 6, "health": -4}, "desc": "Cuts reaction time in half."},
+{"id": "cyberdeck",   "name": "Wrist Cyberdeck",     "cost": 12000, "slot": "ware",  "risk": 0.05, "effects": {"smarts": 14, "cool": 4}, "desc": "Portable ICE-breaker suite."},
+{"id": "neural_coproc","name": "Neural Co-processor","cost": 20000, "slot": "head",  "risk": 0.2,  "effects": {"smarts": 20, "health": -8}, "desc": "Thinks for you. Sometimes too much."},
+{"id": "gold_kidney", "name": "Synth Kidney Filter", "cost": 30000, "slot": "organs","risk": 0.1,  "effects": {"health": 18}, "desc": "Scrubs toxins and extends life."}
+]

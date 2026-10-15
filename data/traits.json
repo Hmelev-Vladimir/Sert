@@ -1,0 +1,7 @@
+[
+{"id": "netrunner",  "name": "Netrunner",   "desc": "Dives the Grid like a native stream.", "effects": {"smarts": 12, "body": -6}},
+{"id": "streetrat",  "name": "Street Rat",  "desc": "Raised by the Sprawl; hard to kill.",  "effects": {"nerve": 10, "cool": 6, "smarts": -4}},
+{"id": "silver",     "name": "Silver Tongue","desc": "Can sell silence to a mime.",          "effects": {"cool": 12, "nerve": -4}},
+{"id": "grease",     "name": "Grease Monkey","desc": "Fixes anything with a current or an engine.", "effects": {"smarts": 8, "health": 4, "cool": -6}},
+{"id": "ghost",      "name": "Ghost",       "desc": "Cameras never seem to catch you.",     "effects": {"cool": 8, "nerve": 8, "health": -4}}
+]
