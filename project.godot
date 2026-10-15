@@ -1,0 +1,78 @@
+; Engine configuration file.
+; NEONLINE — "Life in the Sprawl" (Godot 4.3+)
+; A life-simulation mobile game template with a cyberpunk setting.
+
+config_version=5
+
+[application]
+
+config/name="NEONLINE"
+config/description="Life simulation for mobile. Grow up, jack in, and survive the Sprawl."
+run/main_scene="res://scenes/boot.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0.023529, 0.05098, 0.101961, 1)
+boot_splash/show_image=false
+
+[autoload]
+
+ThemeManager="*res://scripts/runtime/theme_manager.gd"
+SignalBus="*res://scripts/runtime/theme_bus.gd"
+AudioManager="*res://scripts/runtime/audio_manager.gd"
+DataService="*res://scripts/runtime/data_service.gd"
+GameState="*res://scripts/runtime/game_state.gd"
+SaveSystem="*res://scripts/runtime/save_system.gd"
+EventEngine="*res://scripts/runtime/event_engine.gd"
+Analytics="*res://scripts/runtime/analytics.gd"
+AdManager="*res://scripts/runtime/ad_manager.gd"
+IAPManager="*res://scripts/runtime/iap_manager.gd"
+Notifier="*res://scripts/runtime/notifier.gd"
+
+[display]
+
+window/size/viewport_width=440
+window/size/viewport_height=956
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+gui/theme/custom="res://themes/base_theme.tres"
+gui/theme/default_font_size=16
+
+[file_customization]
+
+folder_colors/{docs/}="blue"
+folder_colors/{scenes/}="purple"
+folder_colors/{scripts/}="green"
+folder_colors/{data/}="yellow"
+folder_colors/{themes/}="orange"
+
+[input]
+
+ui_accept={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":32,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+ui_back={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194308,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+]
+}
+
+[layer_names]
+
+2d_physics/layer_1="UI"
+2d_physics/layer_2="World"
+
+[network]
+
+limits/debugger/max_chars_per_second=16384
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+anti_aliasing/quality/msaa_2d=0
+environment/defaults/default_clear_color=Color(0.023529, 0.05098, 0.101961, 1)
+2d/snap/snap_2d_transforms_to_pixel=true
